@@ -1,0 +1,50 @@
+package constructor.Class;
+
+public class PetClass {
+	//u now need to add information about what a car class "is"
+	//two major pieces of info u need:
+	//1. What variables do u need to have inside the object
+	
+	String color;
+	int numberOfDoors;
+	//the variables that each instance of car will have are stored inside the block of the class definition and are known as the classes fields 
+	
+	//JAVA provides a default no argument constructor automatically if no explicit constructor is added
+	
+	//this default constructor will set all values of the fields to 0 if a number, or null if a reference type. the default constructor will not be 
+	//generated if u specify a constructor manually
+	
+	//to provide a constructor u write a method with no return arguments that has the same name as the class DO NOT USE "void" with a constructor
+	
+	PetClass() {
+		//these two lines will set variables and it will first look for a local variable named color, and then it will look for 
+		// a variable inside the object named color same for numbersOfDoors
+		color="white";
+		numberOfDoors=2;
+	}
+	
+	PetClass(String color, int doors) {
+		this.color = color;
+		this.numberOfDoors=doors;
+	}
+	PetClass(String color) {
+		this.color = color;
+		this.numberOfDoors=4;
+	}
+	PetClass(int doors) {
+		this.color = "white";
+		this.numberOfDoors=doors;
+	}
+	
+	
+	//2. what methods do u need to have for the object
+	void start() {
+		System.out.println("Car starting");
+	}
+	void stop() {
+		System.out.println("Car stopping");
+	}
+	void drive() {
+		System.out.println("Car driving");
+	}
+}

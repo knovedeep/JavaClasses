@@ -1,0 +1,12 @@
+package constructor.Class;
+
+public class Other {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		PetClass myCar=new PetClass();
+		PetClass yourCar= new PetClass("red",2);
+		System.out.println(myCar);
+	}
+
+}

@@ -1,0 +1,24 @@
+import java.util.HashMap;
+
+public class MapExercise {
+
+	public static void main(String[] args) {
+		HashMap<String, String> carDealer = new HashMap<>();
+		
+		// hashmap has the following structure: Model : Make
+		carDealer.put("Civic", "Honda");
+		carDealer.put("Accord", "Honda");
+		carDealer.put("CRV", "Honda");
+		carDealer.put("Odyssey", "Honda");
+		carDealer.put("Camry", "Toyota");
+		carDealer.put("Corolla", "Toyota");
+		carDealer.put("Prius", "Toyota");
+		carDealer.put("Supra", "Toyota");
+		carDealer.put("Tahoe", "Chevrolet");
+		carDealer.put("Silverado", "Chevrolet");
+		carDealer.put("Camaro", "Chevrolet");
+		
+		carDealer.get("Camaro");
+	}
+
+}

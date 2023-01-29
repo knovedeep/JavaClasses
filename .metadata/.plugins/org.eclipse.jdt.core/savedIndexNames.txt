@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\Knove\OneDrive\Desktop\TTS Bootcamp\JAVA\Directory\.metadata\.plugins\org.eclipse.jdt.core
+2229057561.index
+1865797976.index
+2991021787.index
+1254915730.index

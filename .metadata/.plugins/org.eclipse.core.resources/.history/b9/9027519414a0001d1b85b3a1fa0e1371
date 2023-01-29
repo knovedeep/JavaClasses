@@ -1,0 +1,13 @@
+package info.facts;
+
+public class Using {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CountryClass USA = new CountryClass();
+		USA.setPopulationSize(1064565464564560000);
+		//USA.isGreater(populationSize);
+		System.out.println(USA.isGreater(121231234));
+	}
+
+}

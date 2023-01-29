@@ -1,0 +1,12 @@
+package info.facts;
+
+public class Using {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CountryClass USA = new CountryClass();
+		USA.isGreater(121231234);
+		System.out.println(USA.isGreater(121231234));
+	}
+
+}

@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class LoopEx {
+
+	public static void main(String[] args) {
+		Scanner input=new Scanner(System.in);
+		System.out.println("Please provide 5 numbers");
+		int numbers=input.nextInt();
+		int numbers2=input.nextInt();
+		int numbers3=input.nextInt();
+		int numbers4=input.nextInt();
+		int numbers5=input.nextInt();
+		System.out.println(numbers);
+	}
+
+}
